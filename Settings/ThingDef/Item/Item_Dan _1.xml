@@ -1,0 +1,168 @@
+<ThingDefs><List>
+	<ThingDef Type="Item" Name="Item_Dan_HuaSuiWan" Parent="DanBase">
+		<ThingName>太一化髓丸</ThingName>
+		<TexPath>res\Sprs\object\object_DAdanyao06</TexPath>
+		<Desc>太一门第四代掌门外出历练时遇见一名炼丹宗师身陷险境，掌门出手相助，炼丹宗师感激不尽赠于太上丹方。吃丹服下后可洗净根骨中的杂质，提高根骨。</Desc>	
+		<Rate>8</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_HuaSuiWan</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_ShuiEssence" count = "6"/>        <!--五色金莲-->
+					<Item name = "Item_EarthEssence" count = "4"/>       <!--长生泉-->
+					<Item name = "Item_LifeStream" count = "2"/>         <!--地母灵液-->
+					<Item name = "Item_MagicHerb" count = "200"/>        <!--灵仙草-->
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>8</Value>   
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_TongShenDan" Parent="DanBase">
+		<ThingName>太一通神丸</ThingName>
+		<TexPath>res\Sprs\object\object_DAdanyao06</TexPath>
+		<Desc>太一门第四代掌门外出历练时遇见一名炼丹宗师身陷险境，掌门出手相助，炼丹宗师感激不尽赠于太上丹方。吃丹服下后可道心透彻，可感知方圆百里，提高神识。</Desc>	
+		<Rate>8</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_TongShenDan</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_HuoEssence" count = "6"/>         <!--朱果-->
+					<Item name = "Item_EarthEssence" count = "4"/>       <!--长生泉-->
+					<Item name = "Item_LifeStream" count = "2"/>         <!--地母灵液-->
+					<Item name = "Item_Mint" count = "200"/>             <!--清心草-->
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>8</Value>   
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_DingYanDan" Parent="DanBase">
+		<ThingName>太一定颜丸</ThingName>
+		<TexPath>res\Sprs\object\object_DAdanyao06</TexPath>
+		<Desc>太一门第四代掌门外出历练时遇见一名炼丹宗师身陷险境，掌门出手相助，炼丹宗师感激不尽赠于太上丹方。吃丹服下后可永驻容颜，亦有改头换面之效，提高魅力。</Desc>	
+		<Rate>8</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_DingYanDan</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_JinEssence" count = "6"/>         <!--琅琊果-->
+					<Item name = "Item_EarthEssence" count = "4"/>       <!--长生泉-->
+					<Item name = "Item_LifeStream" count = "2"/>         <!--地母灵液-->
+					<Item name = "Item_Ginseng" count = "200"/>          <!--人参-->
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>8</Value>   
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_WuXinWan" Parent="DanBase">
+		<ThingName>太一悟心丸</ThingName>
+		<TexPath>res\Sprs\object\object_DAdanyao06</TexPath>
+		<Desc>太一门第四代掌门外出历练时遇见一名炼丹宗师身陷险境，掌门出手相助，炼丹宗师感激不尽赠于太上丹方。吃丹服下后可心领神悟，修炼事倍功半，提高悟性。</Desc>	
+		<Rate>8</Rate>
+		<Beauty>5</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_WuXinWan</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_TuEssence" count = "6"/>                  <!--赭黄精-->
+					<Item name = "Item_EarthEssence" count = "4"/>               <!--长生泉-->
+					<Item name = "Item_LifeStream" count = "2"/>                 <!--地母灵液-->
+					<Item name = "Item_GanodermaLucidum" count = "200"/>         <!--人参-->
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>8</Value>   
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_TongTianWan" Parent="DanBase">
+		<ThingName>造化通天丸</ThingName>
+		<TexPath>res\Sprs\object\object_DAdanyao06</TexPath>
+		<Desc>上界神魔大战中遗留下的丹方，此丹有通天之能，提升五维2点。普通人食用亦可成为了不起的修行者，对于修行者而言更是不可多得的神物，由于材料极难获得以及极低的成功率，每有一颗造化通天丸出世都会引发一场腥风血雨。</Desc>	
+		<Rate>12</Rate>
+		<Beauty>8</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_TongTianWan</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+				    <Item name = "Item_ShuiEssence" count = "6"/>                <!--五色金莲-->
+					<Item name = "Item_JinEssence" count = "6"/>                 <!--琅琊果-->
+					<Item name = "Item_HuoEssence" count = "6"/>                 <!--朱果-->
+					<Item name = "Item_TuEssence" count = "6"/>                  <!--赭黄精-->
+					<Item name = "Item_MuEssence" count = "6"/>                  <!--木枯藤-->
+					<Item name = "Item_EarthEssence" count = "8"/>               <!--长生泉-->
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>5</Value>   
+		</Element>
+	</ThingDef>	
+</List></ThingDefs>

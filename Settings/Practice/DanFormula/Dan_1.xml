@@ -1,0 +1,48 @@
+<DanFormulas><List>
+	
+	<!--太一化髓丸-->
+	<Dan Name="Dan_HuaSuiWan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_HuaSuiWan</ItemName>
+		<Level>17</Level>
+		<SuccessRate>-0.4</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--太一通神丸-->
+	<Dan Name="Dan_TongShenDan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_TongShenDan</ItemName>
+		<Level>17</Level>
+		<SuccessRate>-0.4</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+
+	<!--太一定颜丸-->
+	<Dan Name="Dan_DingYanDan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_DingYanDan</ItemName>
+		<Level>17</Level>
+		<SuccessRate>-0.4</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--太一悟心丸-->
+	<Dan Name="Dan_WuXinWan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_WuXinWan</ItemName>
+		<Level>17</Level>
+		<SuccessRate>-0.4</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<!--造化通天丸-->
+	<Dan Name="Dan_TongTianWan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_TongTianWan</ItemName>
+		<Level>20</Level>
+		<SuccessRate>-0.7</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+</List></DanFormulas>

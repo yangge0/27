@@ -1,0 +1,113 @@
+<DanFormulas><List>
+	<Dan Name="Dan_TianLingDan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_TianLingDan</ItemName>
+		<Level>15</Level>
+		<SuccessRate>0.3</SuccessRate>
+		<Count>5</Count>
+	</Dan>
+	
+	<Dan Name="Dan_ZengYuanDan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_ZengYuanDan</ItemName>
+		<Level>8</Level>
+		<SuccessRate>0.8</SuccessRate>
+		<Count>5</Count>
+	</Dan>
+	
+	<Dan Name="Dan_ZhenYuanDan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_ZhenYuanDan</ItemName>
+		<Level>13</Level>
+		<SuccessRate>0.1</SuccessRate>
+		<Count>3</Count>
+	</Dan>
+	
+	<Dan Name="Dan_HaoYuanDan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_HaoYuanDan</ItemName>
+		<Level>18</Level>
+		<SuccessRate>-0.5</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_QingXvDan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_QingXvDan</ItemName>
+		<Level>15</Level>
+		<SuccessRate>0.3</SuccessRate>
+		<Count>7</Count>
+	</Dan>
+	
+	<Dan Name="Dan_JinSuiDan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_JinSuiDan</ItemName>
+		<Level>8</Level>
+		<SuccessRate>0.8</SuccessRate>
+		<Count>3</Count>
+	</Dan>
+	
+	<Dan Name="Dan_MeiLingDan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_MeiLingDan</ItemName>
+		<Level>8</Level>
+		<SuccessRate>0.8</SuccessRate>
+		<Count>3</Count>
+	</Dan>
+	
+	<Dan Name="Dan_AnHunDan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_AnHunDan</ItemName>
+		<Level>8</Level>
+		<SuccessRate>0.8</SuccessRate>
+		<Count>3</Count>
+	</Dan>
+	
+	<Dan Name="Dan_BuTianDan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_BuTianDan</ItemName>
+		<Level>15</Level>
+		<SuccessRate>0.3</SuccessRate>
+		<Count>3</Count>
+	</Dan>
+	
+	<Dan Name="Dan_DiYuanDan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_DiYuanDan</ItemName>
+		<Level>15</Level>
+		<SuccessRate>0.3</SuccessRate>
+		<Count>3</Count>
+	</Dan>
+	
+	<Dan Name="Dan_ZengQiDan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_ZengQiDan</ItemName>
+		<Level>17</Level>
+		<SuccessRate>0.1</SuccessRate>
+		<Count>1</Count>
+	</Dan>
+	
+	<Dan Name="Dan_30BiGuDan">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_30BiGuDan</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.5</SuccessRate>
+		<Count>5</Count>
+	</Dan>
+
+	<Dan Name="Dan_30LostSoul">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_30LostSoul</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.5</SuccessRate>
+		<Count>5</Count>
+	</Dan>
+
+	<Dan Name="Dan_30Happiness">
+		<Normal>1</Normal>
+		<ItemName>Item_Dan_30Happiness</ItemName>
+		<Level>10</Level>
+		<SuccessRate>0.5</SuccessRate>
+		<Count>5</Count>
+	</Dan>
+</List></DanFormulas>

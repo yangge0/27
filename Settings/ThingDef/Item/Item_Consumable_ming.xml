@@ -1,0 +1,465 @@
+<ThingDefs><List>
+
+		
+	<ThingDef Type="Item" Name="Item_Dan_TianLingDan" Parent="DanBase">
+		<ThingName>天灵丹</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao07</TexPath>
+		<Desc>此丹由某炼丹大师(署名)于一次意外中炼出，服用此丹可降低心境波动，在修真界中有极大盛名，不少修行者得此丹后心境圆润修为突飞猛进。</Desc>	
+		<Rate>9</Rate>
+		<Beauty>9</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_TianLingDan</Modifier>
+				<Fesistance>1</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_EarthEssence" count = "1"/>
+					<Item name = "Item_Mint" count = "200"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>1</Value>   
+		</Element>
+	</ThingDef>
+	
+	
+	<ThingDef Type="Item" Name="Item_Dan_ZengYuanDan" Parent="DanBase">
+		<ThingName>增元丹</ThingName>
+		<TexPath>res\Sprs\object\object_HULUdanyao03</TexPath>
+		<Desc>修仙界中常见丹药，虽品阶不高，但修真门派中炼气期弟子常常因为修行有佳被门派给予增元丹，服过此丹的修行者日后根基稳定，有助于修行。提高100灵气上限</Desc>	
+		<Rate>7</Rate>
+		<Beauty>7</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_ZengYuanDan</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_ParasolWood" count = "10"/>
+					<Item name = "Item_MagicHerb" count = "50"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>1</Value>   
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_ZhenYuanDan" Parent="DanBase">
+		<ThingName>真元丹</ThingName>
+		<TexPath>res\Sprs\object\object_HULUdanyao03</TexPath>
+		<Desc>修仙界中最为出名的丹药之一，只有少数修行者有机缘获取。在修真界中传闻，服用此丹，日后大有机缘结成上品金丹。提高500灵气上限</Desc>	
+		<Rate>9</Rate>
+		<Beauty>9</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_ZhenYuanDan</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_EarthEssence" count = "1"/>
+					<Item name = "Item_LifeStream" count = "1"/>
+					<Item name = "Item_Dan_ZengYuanDan" count = "2"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>1</Value>   
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_HaoYuanDan" Parent="DanBase">
+		<ThingName>昊元丹</ThingName>
+		<TexPath>res\Sprs\object\object_HULUdanyao01</TexPath>
+		<Desc>钟天地气运而生，以真元丹为本，融合天地最精纯的元气。在修真界中，一丹难求，得此丹者，无一不是万中挑一的天选之人。服用者必成一品金丹！提高2000灵气上限</Desc>	
+		<Rate>11</Rate>
+		<Beauty>11</Beauty>
+		<ElementKind>None</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_HaoYuanDan</Modifier>
+				<Fesistance>0</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_HuoEssence" count = "1"/>
+					<Item name = "Item_ShuiEssence" count = "1"/>
+					<Item name = "Item_JinEssence" count = "1"/>
+					<Item name = "Item_TuEssence" count = "1"/>
+					<Item name = "Item_Dan_ZhenYuanDan" count = "3"/>
+					<Item name = "Item_EarthEssence" count = "4"/>
+					<Item name = "Item_LifeStream" count = "2"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>None</Kind>
+			<Value>1</Value>   
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_QingXvDan" Parent="DanBase">
+		<ThingName>清虚丹</ThingName>
+		<TexPath>res\Sprs\object\object_DAdanyao06</TexPath>
+		<Desc>此丹为天擎宗镇宗丹方，服一丹可短期内道心透彻。太一门与天擎宗相交甚好，七代掌门于当时天擎宗宗主有救命之恩，遂得丹方。一丹服而万心通，天下万事不改色，能做到真正的心境通透</Desc>	
+		<Rate>9</Rate>
+		<Beauty>9</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_QingXvDan</Modifier>
+				<Fesistance>1</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_MuEssence" count = "6"/>
+					<Item name = "Item_LifeStream" count = "5"/>
+					<Item name = "Item_Mint" count = "200"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>1</Value>   
+		</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_Dan_JinSuiDan" Parent="DanBase">
+		<ThingName>金髓丸</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao01</TexPath>
+		<Desc>太一门第二代掌门于中原正邪大战中缴获窃天丹方，此丹虽可在短期内增加根骨，却对气海造成不可逆的损耗。请谨慎使用，根骨加0.2，灵气上限减少十点</Desc>	
+		<Rate>7</Rate>
+		<Beauty>7</Beauty>
+		<ElementKind>Jin</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_JinSuiDan</Modifier>
+				<Fesistance>1</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_RedGinseng" count = "10"/>
+					<Item name = "Item_MagicHerb" count = "50"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Jin</Kind>
+			<Value>1</Value>   
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_MeiLingDan" Parent="DanBase">
+		<ThingName>魅灵丸</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao01</TexPath>
+		<Desc>太一门第二代掌门于中原正邪大战中缴获窃天丹方，此丹虽可在短期内增加魅力，却对气海造成不可逆的损耗。请谨慎使用，魅力加0.2，灵气上限减少十点</Desc>	
+		<Rate>7</Rate>
+		<Beauty>7</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_MeiLingDan</Modifier>
+				<Fesistance>1</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_PurpleGanodermaLucidum" count = "10"/>
+					<Item name = "Item_MagicHerb" count = "50"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>1</Value>   
+		</Element>
+	</ThingDef>
+	
+	<ThingDef Type="Item" Name="Item_Dan_AnHunDan" Parent="DanBase">
+		<ThingName>安魂丸</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao01</TexPath>
+		<Desc>太一门第二代掌门于中原正邪大战中缴获窃天丹方，此丹虽可在短期内增加神识，却对气海造成不可逆的损耗。请谨慎使用，神识加0.2，灵气上限减少十点</Desc>	
+		<Rate>7</Rate>
+		<Beauty>7</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_AnHunDan</Modifier>
+				<Fesistance>1</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_PurpleGanodermaLucidum" count = "10"/>
+					<Item name = "Item_Mint" count = "50"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>1</Value>   
+		</Element>
+	</ThingDef>
+	
+		<ThingDef Type="Item" Name="Item_Dan_BuTianDan" Parent="DanBase">
+		<ThingName>补天丹</ThingName>
+		<TexPath>res\Sprs\object\object_PINGdanyao04</TexPath>
+		<Desc>相传是太一掌门观赏女娲补天图参悟而出的奇异丹药，可以使学习速度提升</Desc>	
+		<Rate>10</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Shui</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_BuTianDan</Modifier>
+				<Fesistance>1</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Dan_ZhenYuanDan" count = "5"/>
+					<Item name = "Item_MonsterBlood" count = "8"/>
+					<Item name = "Item_LifeStream" count = "2"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Shui</Kind>
+			<Value>1</Value>   
+		</Element>
+	</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_Dan_DiYuanDan" Parent="DanBase">
+		<ThingName>地元丹</ThingName>
+		<TexPath>res\Sprs\object\object_PINGdanyao04</TexPath>
+		<Desc>相传是太一掌门观赏夸父逐日图参悟而出的奇异丹药，可以使修炼速度提升</Desc>	
+		<Rate>10</Rate>
+		<Beauty>10</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_DiYuanDan</Modifier>
+				<Fesistance>1</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Dan_ZhenYuanDan" count = "5"/>
+					<Item name = "Item_MonsterBlood" count = "8"/>
+					<Item name = "Item_LifeStream" count = "2"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>1</Value>   
+		</Element>
+	</ThingDef>
+	
+		<ThingDef Type="Item" Name="Item_Dan_ZengQiDan" Parent="DanBase">
+		<ThingName>血莲增气丹</ThingName>
+		<TexPath>res\Sprs\object\object_PINGdanyao04</TexPath>
+		<Desc>太一门外出历练弟子必备丹药，可以使法宝，术法伤害提高。</Desc>	
+		<Rate>11</Rate>
+		<Beauty>11</Beauty>
+		<ElementKind>Huo</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_ZengQiDan</Modifier>
+				<Fesistance>1</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Dan_JinSuiDan" count = "5"/>
+					<Item name = "Item_Dan_MeiLingDan" count = "5"/>
+					<Item name = "Item_Dan_AnHunDan" count = "5"/>
+					<Item name = "Item_HuoEssence" count = "5"/>
+					<Item name = "Item_EarthEssence" count = "3"/>
+					<Item name = "Item_RedGinseng" count = "10"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Huo</Kind>
+			<Value>1</Value>   
+		</Element>
+	</ThingDef>
+		
+		<ThingDef Type="Item" Name="Item_Dan_30BiGuDan" Parent="DanBase">
+		<ThingName>高级辟谷丹</ThingName>
+		<TexPath>res\Sprs\object\object_PINGdanyao04</TexPath>
+		<Desc>太一门内门弟子修炼必备丹药，可以辟谷30天。</Desc>	
+		<Rate>9</Rate>
+		<Beauty>11</Beauty>
+		<ElementKind>Tu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Elixir>
+				<Modifier>Dan_30BiGuDan</Modifier>
+				<Fesistance>1</Fesistance>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_Ginseng" count = "5"/>
+					<Item name = "Item_GanodermaLucidum" count = "5"/>
+					<Item name = "Item_Wheat" count = "100"/>
+					<Item name = "Item_Water" count = "200"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Tu</Kind>
+			<Value>1</Value>   
+		</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_Dan_30LostSoul" Parent="DanBase">
+		<ThingName>高级摄神丹</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao04</TexPath>
+		<Desc>很基础的金石丹方，服用后会抑制大脑活性，使之陷入昏迷之中30天。</Desc>	
+		<Rate>8</Rate>
+		<Beauty>8</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<Poisonousness>0</Poisonousness>
+				<FunAddion>0</FunAddion>
+			</Food>	
+			<Elixir>
+				<Modifier>Dan_30LostSoul</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_SilverGrit" count = "20"/>
+					<Item name = "Item_CopperGrit" count = "20"/>
+					<Item name = "Item_Cinnabar" count = "20"/>
+					<Item name = "Item_MagicHerb" count = "200"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+
+	<ThingDef Type="Item" Name="Item_Dan_30Happiness" Parent="DanBase">
+		<ThingName>高级极乐丹</ThingName>
+		<TexPath>res\Sprs\object\object_XIAOdanyao06</TexPath>
+		<Desc>可以在30天内感到快乐的丹药，但是吃了之后会做事效率会降低五成。</Desc>	
+		<Rate>9</Rate>
+		<Beauty>8</Beauty>
+		<ElementKind>Mu</ElementKind>
+		<Item Lable="Dan">
+			<PhysicalLables>
+				<li>Smooth1</li>
+				<li>Hard1</li>
+				<li>Light1</li>
+			</PhysicalLables>
+			<Food>
+				<EatDirectable>1</EatDirectable>
+				<Nutrition>0</Nutrition>
+				<Poisonousness>0</Poisonousness>
+				<FunAddion>0</FunAddion>
+			</Food>	
+			<Elixir>
+				<Modifier>Dan_30Happiness</Modifier>
+			</Elixir>
+			<BeMade>
+				<WorkToMake>200</WorkToMake>
+				<CostItems>
+					<Item name = "Item_MagicHerb" count = "100"/>
+					<Item name = "Item_Mint" count = "100"/>
+				</CostItems>
+			</BeMade> 
+		</Item>
+		<Element>
+			<Kind>Mu</Kind>
+			<Value>3</Value>   
+		</Element>
+	</ThingDef>
+</List></ThingDefs>

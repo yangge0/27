@@ -1,0 +1,181 @@
+<!--模板生成器，定义效果-->
+<ModifierDefs><List>
+	<!--定灵丹-->
+	<Modifier Name="Dan_TianLingDan" Type="Normal">
+		<DisplayName>天灵丹</DisplayName>
+		<Desc>长期降低心境波动。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>6000</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="SpeedOfMindStateCoefficient" AddP="-0.5"/>
+			<li Name="MindStateBaseValue" AddV="20"/>
+		</Properties>
+	</Modifier>
+	
+	
+	<Modifier Name="Dan_ZengYuanDan" Type="Normal">
+		<DisplayName>增元丹</DisplayName>
+		<Desc>提高100灵气上限。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+		<li Name="NpcLingMaxValue" AddV="100"/>
+		</Properties>
+	</Modifier>
+
+	
+	<Modifier Name="Dan_ZhenYuanDan" Type="Normal">
+		<DisplayName>真元丹</DisplayName>
+		<Desc>提高500灵气上限。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+		<li Name="NpcLingMaxValue" AddV="500"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_HaoYuanDan" Type="Normal">
+		<DisplayName>昊元丹</DisplayName>
+		<Desc>提高2000灵气上限。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+		<li Name="NpcLingMaxValue" AddV="2000"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_QingXvDan" Type="Normal">
+		<DisplayName>清虚丹</DisplayName>
+		<Desc>短期提高心境基础值。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>1800</Duration>
+		<Display>1</Display>
+		<Properties>
+		<li Name="MindStateBaseValue" AddV="70"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_JinSuiDan" Type="Normal">
+		<DisplayName>金髓丹</DisplayName>
+		<Desc>根骨加0.2，灵气上限降低十点。</Desc>
+		<MaxStack>500</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0.2,0,0,0</BaseFive>
+		<Properties>
+		<li Name="NpcLingMaxValue" BAddV="-10"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_MeiLingDan" Type="Normal">
+		<DisplayName>魅灵丹</DisplayName>
+		<Desc>魅力加0.2，灵气上限降低十点。</Desc>
+		<MaxStack>500</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0,0,0.2,0,0</BaseFive>
+		<Properties>
+		<li Name="NpcLingMaxValue" BAddV="-10"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_AnHunDan" Type="Normal">
+		<DisplayName>安魂丹</DisplayName>
+		<Desc>神识加0.2，灵气上限降低十点。</Desc>
+		<MaxStack>500</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<BaseFive>0.2,0,0,0,0</BaseFive>
+		<Properties>
+		<li Name="NpcLingMaxValue" BAddV="-10"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_BuTianDan" Type="Normal">
+		<DisplayName>补天丹</DisplayName>
+		<Desc>学习速度提升。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>6000</Duration>
+		<Display>1</Display>
+		<Properties>
+		<li Name="IntelligenceSkillEXPConstant" AddP="3"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_DiYuanDan" Type="Normal">
+		<DisplayName>地元丹</DisplayName>
+		<Desc>修炼速度提升。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>6000</Duration>
+		<Display>1</Display>
+		<Properties>
+		 <li Name="DeepPracticeSpeedSpecialCoefficient" AddP="1.2"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Dan_ZengQiDan" Type="Normal">
+		<DisplayName>血莲增气丹</DisplayName>
+		<Desc>法宝，术法伤害提高，但事后会有永久性的轻微后遗症。</Desc>
+		<MaxStack>500</MaxStack>
+		<Duration>1500</Duration>
+		<Display>1</Display>
+		<EndModifier>Modifier_Item_LingQiJiangDi</EndModifier>
+		<Properties>
+		<li Name="NpcFight_FabaoPowerAddP" AddV="1"/>
+		  <li Name="NpcFight_SpellPowerAddP" AddP="1.2"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Item_LingQiJiangDi" Type="Normal">
+		<DisplayName>灵气上限降低</DisplayName>
+		<Desc>透支身体导致根基不稳。</Desc>
+		<MaxStack>500</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Properties>
+		<li Name="NpcLingMaxValue" BAddV="-10"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Dan_30BiGuDan" Type="Normal">
+		<DisplayName>辟谷</DisplayName>
+		<Desc>30天辟谷。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>18000</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="NutritionConsumeConstant" AddP="-1"/>
+			<li Name="WaterConsumeConstant" AddP="-1"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="Dan_30LostSoul" Type="Normal">
+		<DisplayName>高级摄神丹</DisplayName>
+		<Desc>很基础的金石丹方，服用后会抑制大脑活性，使之陷入昏迷之中30天。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>18000</Duration>
+		<Display>1</Display>
+		<Damages>
+			<li Part="Brain" Damage="LostSoul"/>
+		</Damages>
+	</Modifier> 
+
+	<Modifier Name="Dan_30Happiness" Type="Normal">
+		<DisplayName>极乐丹</DisplayName>
+		<Desc>食用极乐丹，在30天之内会沉浸在快乐之中，但是工作效率大受影响。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>18000</Duration>
+		<Display>1</Display>
+		<Properties>
+			<li Name="GlobalEfficiency" AddP="-0.5"/>
+			<li Name="HappyConsumeConstant" AddP="-1"/>
+		</Properties>
+		<Moods>
+			<li>Dan_Happiness</li>
+		</Moods>
+	</Modifier> 
+</List></ModifierDefs>

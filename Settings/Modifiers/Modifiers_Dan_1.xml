@@ -1,0 +1,47 @@
+<ModifierDefs><List>
+	<Modifier Name="Dan_HuaSuiWan" Type="Normal">
+		<DisplayName>太一化髓丸</DisplayName>
+		<Desc>激活身体之潜力，永久提高根骨。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,3,0,0,0</BaseFive>
+	</Modifier>
+	
+	<Modifier Name="Dan_TongShenDan" Type="Normal">
+		<DisplayName>太一通神丸</DisplayName>
+		<Desc>激活身体之潜力，永久提高神识。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>3,0,0,0,0</BaseFive>
+	</Modifier>
+	
+	<Modifier Name="Dan_DingYanDan" Type="Normal">
+		<DisplayName>太一定颜丸</DisplayName>
+		<Desc>激活身体之潜力，永久提高魅力。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,3,0,0</BaseFive>
+	</Modifier>
+	
+	<Modifier Name="Dan_WuXinWan" Type="Normal">
+		<DisplayName>太一悟心丸</DisplayName>
+		<Desc>激活身体之潜力，永久提高悟性。</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>0,0,0,3,0</BaseFive>
+	</Modifier> 
+	
+	<Modifier Name="Dan_TongTianWan" Type="Normal">
+		<DisplayName>造化通天丸</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<BaseFive>2,2,2,2,2</BaseFive>
+	</Modifier>  
+
+</List></ModifierDefs>
